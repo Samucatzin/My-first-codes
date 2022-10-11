@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(0, 39, 78);
+    font: normal 16pt Arial;
+    text-align: center;
+}
+h1{
+    font: normal Arial; color: white;
+}
+div[class="caixa"]{
+    font: normal 16pt Arial;
+    
+    background-color: white;
+    height: 150px auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 11px;
+    text-align: center;
+    font: normal 16pt Arial;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+}
+p[id='sob']{
+    font: normal 14pt Arial;
+}
+label[id="CO"]{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+label[id="SP"]{
+    color: red;
+    margin-right: 20px;
+    cursor: pointer;
+}
+label[id="PA"]{
+    color: green;
+    margin-left: 20px;
+    cursor: pointer;
+}
+input[name="fut"]{
+    display: none;
+    width: 50px;
+    
+
+}
